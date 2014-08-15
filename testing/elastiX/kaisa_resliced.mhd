@@ -1,0 +1,14 @@
+ObjectType = Image
+NDims = 3
+BinaryData = True
+BinaryDataByteOrderMSB = False
+CompressedData = True
+CompressedDataSize = 3966900
+TransformMatrix = 1 0 0 0 1 0 0 0 1
+Offset = -126.727 -138.083 -21.5
+CenterOfRotation = 0 0 0
+AnatomicalOrientation = RAI
+ElementSpacing = 0.898 0.898 2
+DimSize = 308 308 127
+ElementType = MET_USHORT
+ElementDataFile = kaisa_resliced.zraw

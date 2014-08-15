@@ -1,0 +1,163 @@
+<?xml version = '1.0'?>
+<patient>
+    <version_name>3.6.3.alpha-19-g5da94dc.2014-07-17</version_name>
+    <active_patient>/Users/christiana/dev/working/CustusX/CustusX/data/Phantoms/Kaisa/CustusX/Speed_Test_Kaisa.cx3</active_patient>
+    <managers>
+        <datamanager>
+            <registrationHistory>
+                <currentTime></currentTime>
+            </registrationHistory>
+            <activeImageUid>Kaisa_20101014T162233</activeImageUid>
+            <landmarkprops/>
+            <landmarks/>
+            <center>   11.3405 -0.0154998       36.4</center>
+            <data uid="Kaisa2_20140717T115854" type="image" name="Kaisa2">
+                <registrationHistory>
+                    <currentTime></currentTime>
+                    <registrationTransform timestamp="" type="">
+       1        0        0 -103.379
+       0        1        0 -114.735
+       0        0        1      0.5
+       0        0        0        1</registrationTransform>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="Kaisa_20101014T162233" timestamp="" type=""/>
+                </registrationHistory>
+                <filePath>Images/Kaisa.mhd</filePath>
+                <acqusitionTime>20140717T115854136</acqusitionTime>
+                <transferfunctions>
+                    <alpha>-885=0 -612=178 -339=255</alpha>
+                    <color>-1022=0/0/0 343=255/255/255</color>
+                </transferfunctions>
+                <lookuptable2D>
+                    <alpha>-1024=0 -1023=255</alpha>
+                    <color>-1022=0/0/0 343=255/255/255</color>
+                </lookuptable2D>
+                <shading ambient="0.2" diffuse="0.9" specular="0.3" on="1" specularPower="15"/>
+                <crop use="0">    -1.000     -1.000     -1.000     -1.000     -1.000     -1.000</crop>
+                <clip/>
+                <modality></modality>
+                <imageType></imageType>
+                <vtk_interpolation type="1"/>
+            </data>
+            <data uid="Kaisa_20101014T162233" type="image" name="Kaisa">
+                <registrationHistory>
+                    <currentTime></currentTime>
+                    <registrationTransform timestamp="20101004T135831" type="From MHD file">
+       1        0        0 -103.604
+       0        1        0  -114.96
+       0        0        1        0
+       0        0        0        1</registrationTransform>
+                    <parentFrame value="frame_2" timestamp="" type=""/>
+                    <parentFrame value="frame_2" timestamp="" type=""/>
+                    <parentFrame value="frame_2" timestamp="" type=""/>
+                    <parentFrame value="frame_2" timestamp="" type=""/>
+                    <parentFrame value="frame_2" timestamp="" type=""/>
+                    <parentFrame value="frame_2" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_2" timestamp="" type=""/>
+                    <parentFrame value="frame_2" timestamp="" type=""/>
+                    <parentFrame value="frame_2" timestamp="" type=""/>
+                    <parentFrame value="frame_2" timestamp="" type=""/>
+                    <parentFrame value="frame_2" timestamp="" type=""/>
+                    <parentFrame value="frame_2" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                </registrationHistory>
+                <filePath>Images/../../../MetaImage/Kaisa.mhd</filePath>
+                <acqusitionTime>20130322T191323674</acqusitionTime>
+                <transferfunctions>
+                    <alpha>-885=0 -609=178 -334=255</alpha>
+                    <color>-1023=0/0/0 354=255/255/255</color>
+                </transferfunctions>
+                <lookuptable2D>
+                    <alpha>0=255 1378=255</alpha>
+                    <color>0=0/0/0 1378=255/255/255</color>
+                </lookuptable2D>
+                <shading ambient="0.2" diffuse="0.9" specular="0.3" on="1" specularPower="15"/>
+                <crop use="0">     0.000      0.000      0.000      0.000      0.000      0.000</crop>
+                <clip/>
+                <modality></modality>
+                <imageType></imageType>
+                <vtk_interpolation type="1"/>
+            </data>
+        </datamanager>
+        <toolManager>
+            <toolTipOffset>0</toolTipOffset>
+            <manualTool>
+      1       0       0 11.1155
+      0       1       0 -0.2405
+      0       0       1   104.5
+      0       0       0       1</manualTool>
+            <tools/>
+        </toolManager>
+        <viewManager>
+            <global2DZoom>1</global2DZoom>
+            <activeView>View3D-0-140605336760832</activeView>
+            <slicePlanes3D use="0" opaque="0"/>
+            <viewGroups>
+                <viewGroup index="0">
+                    <data slice3D="0" slice2D="1" volume3D="1">Kaisa_20101014T162233</data>
+                    <camera3D>
+                        <position> 308.109 -487.974  223.869</position>
+                        <focalPoint>11.1155 -0.2405   104.5</focalPoint>
+                        <viewUp>-0.155408  0.144536  0.977219</viewUp>
+                        <nearClip>228.49135723360715</nearClip>
+                        <farClip>1031.5634351332221</farClip>
+                        <parallelScale>331.11632062885155</parallelScale>
+                    </camera3D>
+                    <slicesPlanes3D>Axial/Coronal/Sagittal</slicesPlanes3D>
+                </viewGroup>
+                <viewGroup index="1">
+                    <data slice3D="0" slice2D="1" volume3D="1">Kaisa_20101014T162233</data>
+                    <camera3D/>
+                    <slicesPlanes3D>Axial/Coronal/Sagittal</slicesPlanes3D>
+                </viewGroup>
+                <viewGroup index="2">
+                    <camera3D/>
+                    <slicesPlanes3D>Axial/Coronal/Sagittal</slicesPlanes3D>
+                </viewGroup>
+                <viewGroup index="3">
+                    <camera3D/>
+                    <slicesPlanes3D>Axial/Coronal/Sagittal</slicesPlanes3D>
+                </viewGroup>
+                <viewGroup index="4">
+                    <camera3D/>
+                    <slicesPlanes3D>Axial/Coronal/Sagittal</slicesPlanes3D>
+                </viewGroup>
+            </viewGroups>
+            <clippedImage>Kaisa2_20140717T115854</clippedImage>
+        </viewManager>
+    </managers>
+</patient>

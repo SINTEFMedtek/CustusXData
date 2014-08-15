@@ -1,0 +1,119 @@
+<?xml version = '1.0'?>
+<patient>
+    <version_name>3.2.1 alpha</version_name>
+    <active_patient>/Users/olevs/olevs/workspace/CustusX3/CustusX3/data/testing/ResampleTest.cx3</active_patient>
+    <managers>
+        <datamanager>
+            <activeImageUid/>
+            <landmarkprops/>
+            <center>-0.605502 -25.9285 -4.213</center>
+            <data uid="US_01_20110222T110117_1_20111109T105728" type="image" name="US_01_20110222T110117_1">
+                <registrationHistory>
+                    <currentTime></currentTime>
+                    <registrationTransform timestamp="" type="">
+1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1</registrationTransform>
+                    <parentFrame value="frame_2" timestamp="" type=""/>
+                </registrationHistory>
+                <filePath>Images/US_01_20110222T110117_1.mhd</filePath>
+                <acqusitionTime>20111109T105728963</acqusitionTime>
+                <transferfunctions window="246" alpha="1" llr="0" level="123">
+                    <alpha>0=0 24=0 246=255</alpha>
+                    <color>0=0/0/0 246=255/255/255</color>
+                </transferfunctions>
+                <lookuptable2D window="123" alpha="1" llr="0" level="36.9">
+                    <alpha>0=255 246=255</alpha>
+                    <color>0=0/0/0 246=255/255/255</color>
+                </lookuptable2D>
+                <shading ambient="0.2" diffuse="0.9" specular="0.3" on="0" specularPower="15"/>
+                <landmarks/>
+                <crop use="0">     0.000      0.000      0.000      0.000      0.000      0.000</crop>
+                <clip/>
+                <modality>US</modality>
+                <imageType></imageType>
+            </data>
+            <data uid="mra_20111109T105710" type="image" name="mra">
+                <registrationHistory>
+                    <currentTime></currentTime>
+                    <registrationTransform timestamp="" type="">
+       1        0       -0  -92.278
+      -0        1        0 -140.609
+       0        0        1  -88.713
+       0        0        0        1</registrationTransform>
+                    <parentFrame value="frame_1" timestamp="" type=""/>
+                </registrationHistory>
+                <filePath>Images/mra.mhd</filePath>
+                <acqusitionTime>20111109T105710308</acqusitionTime>
+                <transferfunctions window="730.538" alpha="1" llr="0" level="193">
+                    <alpha>0=0 73=0 157=243 731=255</alpha>
+                    <color>0=255/255/0 200=0/255/255 362=0/0/255 559=255/0/0 731=255/255/255</color>
+                </transferfunctions>
+                <lookuptable2D window="365.5" alpha="1" llr="0" level="109.65">
+                    <alpha>0=255 731=255</alpha>
+                    <color>0=0/0/0 731=255/255/255</color>
+                </lookuptable2D>
+                <shading ambient="0.2" diffuse="0.9" specular="0.3" on="0" specularPower="15"/>
+                <landmarks/>
+                <crop use="0">     0.000      0.000      0.000      0.000      0.000      0.000</crop>
+                <clip/>
+                <modality>MR</modality>
+                <imageType></imageType>
+            </data>
+        </datamanager>
+        <toolManager>
+            <registrationHistory>
+                <currentTime></currentTime>
+            </registrationHistory>
+            <manualTool>
+        1         0         0 -0.605502
+        0         1         0  -25.9285
+        0         0         1    -4.213
+        0         0         0         1</manualTool>
+            <landmarks/>
+            <tools/>
+        </toolManager>
+        <stateManager>
+            <recordSessions/>
+        </stateManager>
+        <registrationManager>
+            <fixedDataUid/>
+            <movingDataUid/>
+        </registrationManager>
+        <viewManager>
+            <global2DZoom>1</global2DZoom>
+            <activeView>View3D-0</activeView>
+            <slicePlanes3D use="0" opaque="0"/>
+            <viewGroups>
+                <viewGroup index="0">
+                    <camera3D>
+                        <position>443.164 -501.762 96.3641</position>
+                        <focalPoint>-0.744511 -26.1921 -4.40025</focalPoint>
+                        <viewUp>-0.0223074 0.187257 0.982058</viewUp>
+                        <nearClip>466.75229356389741</nearClip>
+                        <farClip>901.1889728295173</farClip>
+                        <parallelScale>170.47908732324012</parallelScale>
+                    </camera3D>
+                    <zoomFactor2D>1</zoomFactor2D>
+                </viewGroup>
+                <viewGroup index="1">
+                    <camera3D/>
+                    <zoomFactor2D>1</zoomFactor2D>
+                </viewGroup>
+                <viewGroup index="2">
+                    <camera3D/>
+                    <zoomFactor2D>1</zoomFactor2D>
+                </viewGroup>
+                <viewGroup index="3">
+                    <camera3D/>
+                    <zoomFactor2D>1</zoomFactor2D>
+                </viewGroup>
+                <viewGroup index="4">
+                    <camera3D/>
+                    <zoomFactor2D>1</zoomFactor2D>
+                </viewGroup>
+            </viewGroups>
+        </viewManager>
+    </managers>
+</patient>

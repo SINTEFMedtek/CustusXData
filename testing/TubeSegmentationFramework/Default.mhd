@@ -1,0 +1,5 @@
+NDims = 3
+DimSize = 50 50 100
+ElementType = MET_FLOAT
+ElementDataFile = Default.raw
+

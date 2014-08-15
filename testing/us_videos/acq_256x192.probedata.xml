@@ -1,0 +1,5 @@
+<root>
+    <configuration width="37.82042648206744" temporalCalibration="100" depthStart="0" type="2" centerOffset="0" depthEnd="39.230679672924197">
+        <image width="256" height="192" origin_p="113 17 0" spacing="0.25641 0.25641 1" clipRect_p="   39.000    186.000     17.000    170.000      0.000      0.000"/>
+    </configuration>
+</root>

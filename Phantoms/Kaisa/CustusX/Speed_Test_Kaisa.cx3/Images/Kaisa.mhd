@@ -1,0 +1,14 @@
+ObjectType = Image
+NDims = 3
+BinaryData = True
+BinaryDataByteOrderMSB = False
+CompressedData = True
+CompressedDataSize = 4016360
+CenterOfRotation = 0 0 0
+AnatomicalOrientation = RAI
+ElementSpacing = 0.898 0.898 2
+DimSize = 256 256 105
+ElementType = MET_SHORT
+TransformMatrix =  1 0 0 0 1 0 0 0 1
+Offset =  -103.604 -114.96 0
+ElementDataFile = Kaisa.zraw

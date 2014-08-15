@@ -1,0 +1,14 @@
+ObjectType = Image
+NDims = 3
+BinaryData = True
+BinaryDataByteOrderMSB = False
+CompressedData = False
+CenterOfRotation = 0 0 0
+ElementSpacing = 0.166746 0.166746 0.166746
+DimSize = 234 248 289
+AnatomicalOrientation = ???
+ElementType = MET_UCHAR
+ElementDataFile = US_01_20110222T110117_1.raw
+
+TransformMatrix = 1 0 0 0 1 0 0 0 1
+Offset =  0 0 0

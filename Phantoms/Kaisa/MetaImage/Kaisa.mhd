@@ -1,0 +1,15 @@
+ObjectType = Image 
+NDims = 3 
+BinaryData = True 
+BinaryDataByteOrderMSB = False 
+CompressedData = True
+CompressedDataSize = 28519891
+ElementSpacing = 0.449 0.449 1.000 
+DimSize = 512 512 210 
+ElementType = MET_SHORT 
+Modality = MET_MOD_OTHER
+WindowLevel = 40.000
+WindowWidth = 200.000
+Position = -114.775 -250.775 1099.500
+Orientation = 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000
+ElementDataFile = Kaisa.zraw 

@@ -1,0 +1,13 @@
+ObjectType = Image
+NDims = 3
+BinaryData = True
+BinaryDataByteOrderMSB = False
+CompressedData = False
+TransformMatrix = 1 0 0 0 1 0 0 0 1
+Offset = 0.0320512 0.0320512 0.496774
+CenterOfRotation = 0 0 0
+AnatomicalOrientation = RAI
+ElementSpacing = 0.128205 0.128205 1.99355
+DimSize = 512 384 155
+ElementType = MET_UCHAR
+ElementDataFile = acq_512x384.raw

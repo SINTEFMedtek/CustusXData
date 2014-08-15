@@ -1,0 +1,17 @@
+ObjectType = Image
+NDims = 3
+BinaryData = True
+BinaryDataByteOrderMSB = False
+CompressedData = True
+CompressedDataSize = 10625742
+TransformMatrix = 1 0 0 0 1 0 0 0 1
+Offset = 0 0 0
+CenterOfRotation = 0 0 0
+ElementSpacing = 0.086022 0.086022 1
+DimSize = 800 600 233
+AnatomicalOrientation = ???
+ElementNumberOfChannels = 3
+ElementType = MET_UCHAR
+ElementDataFile = US-Acq_01_20110511T092317.zraw
+ConfigurationID = Ultrasonix:L14-5:DVI:WidthMaxDepth4
+ProbeCalibration = Ultrasonix_L14-5_20110321T120129.cal

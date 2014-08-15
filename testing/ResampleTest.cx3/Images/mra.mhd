@@ -1,0 +1,11 @@
+ObjectType = Image 
+NDims = 3 
+BinaryData = True 
+BinaryDataByteOrderMSB = False 
+ElementSpacing = 0.719 0.719 1.000 
+DimSize = 256 320 170 
+ElementType = MET_USHORT 
+ElementDataFile = mra.raw 
+Creator = DICOMtoMetadataFilter
+TransformMatrix = 1 -0 0 0 1 0 -0 0 1
+Offset =  -92.278 -140.609 -88.713

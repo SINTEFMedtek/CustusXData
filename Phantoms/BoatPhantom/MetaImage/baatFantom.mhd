@@ -1,0 +1,8 @@
+ObjectType = Image 
+NDims = 3 
+BinaryData = True 
+BinaryDataByteOrderMSB = False 
+ElementSpacing = 1.004 1.004 1.000 
+DimSize = 256 256 282 
+ElementType = MET_UCHAR 
+ElementDataFile = baatFantom.raw

@@ -1,0 +1,93 @@
+<?xml version = '1.0'?>
+<patient>
+    <version_name>3.2.0 alpha</version_name>
+    <active_patient>/Users/dev/Patients/20110511T092103_Laboratory_204.cx3</active_patient>
+    <managers>
+        <datamanager>
+            <activeImageUid/>
+            <landmarkprops/>
+            <center>     0.000      0.000      0.000</center>
+        </datamanager>
+        <toolManager>
+            <registrationHistory>
+                <currentTime></currentTime>
+            </registrationHistory>
+            <manualTool>
+     0.620     -0.764     -0.178   -140.538 
+     0.780      0.626      0.033    245.994 
+     0.086     -0.160      0.983    379.445 
+     0.000      0.000      0.000      1.000 </manualTool>
+            <landmarks/>
+            <tools>
+                <tool uid="07-198-0838_SW_Pointer_02"/>
+                <tool uid="8700340"/>
+                <tool uid="AccuracyPhantomPolaris"/>
+                <tool uid="Ultrasonix_L14-5">
+                    <probe config="WidthMaxDepth4"/>
+                </tool>
+            </tools>
+        </toolManager>
+        <viewManager>
+            <global2DZoom>1</global2DZoom>
+            <activeLayout>LAYOUT_US_Acquisition</activeLayout>
+            <activeView>View3D-0</activeView>
+            <viewGroups>
+                <viewGroup index="0">
+                    <camera3D>
+                        <position>     0.000      0.000      1.000</position>
+                        <focalPoint>     0.000      0.000      0.000</focalPoint>
+                        <viewUp>     0.000      1.000      0.000</viewUp>
+                        <nearClip>0.01</nearClip>
+                        <farClip>1000.01</farClip>
+                        <parallelScale>1</parallelScale>
+                    </camera3D>
+                    <zoomFactor2D>1</zoomFactor2D>
+                    <slicePlanes3D use="0" opaque="0"/>
+                </viewGroup>
+                <viewGroup index="1">
+                    <camera3D/>
+                    <zoomFactor2D>1</zoomFactor2D>
+                    <slicePlanes3D use="1" opaque="0"/>
+                </viewGroup>
+                <viewGroup index="2">
+                    <camera3D/>
+                    <zoomFactor2D>1</zoomFactor2D>
+                    <slicePlanes3D use="1" opaque="0"/>
+                </viewGroup>
+                <viewGroup index="3">
+                    <camera3D/>
+                    <zoomFactor2D>1</zoomFactor2D>
+                    <slicePlanes3D use="1" opaque="0"/>
+                </viewGroup>
+                <viewGroup index="4">
+                    <camera3D/>
+                    <zoomFactor2D>1</zoomFactor2D>
+                    <slicePlanes3D use="1" opaque="0"/>
+                </viewGroup>
+            </viewGroups>
+        </viewManager>
+        <registrationManager>
+            <fixedDataUid/>
+            <movingDataUid/>
+        </registrationManager>
+        <stateManager>
+            <recordSessions>
+                <recordSession uid="01_20110511T092317">
+                    <start>1305098589193</start>
+                    <stop>1305098597498</stop>
+                    <description>US-Acq_01_20110511T092317</description>
+                </recordSession>
+                <recordSession uid="02_20110511T092331">
+                    <start>1305098603108</start>
+                    <stop>1305098611046</stop>
+                    <description>US-Acq_02_20110511T092331</description>
+                </recordSession>
+                <recordSession uid="03_20110511T092348">
+                    <start>1305098620183</start>
+                    <stop>1305098628593</stop>
+                    <description>US-Acq_03_20110511T092348</description>
+                </recordSession>
+            </recordSessions>
+        </stateManager>
+    </managers>
+</patient>
