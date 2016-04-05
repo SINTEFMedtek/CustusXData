@@ -1,4 +1,4 @@
 CustusXData
 ===========
 
-Test data for CustusX
+Test data for CustusX.
