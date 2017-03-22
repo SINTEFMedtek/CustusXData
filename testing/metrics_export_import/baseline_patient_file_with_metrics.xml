@@ -1,0 +1,117 @@
+<?xml version = '1.0'?>
+<patient>
+    <version_name>2017.03.21-dev+feature_CX-209-load-metrics-fr.18d78</version_name>
+    <active_patient></active_patient>
+    <managers>
+        <stateManager>
+            <recordSessions/>
+        </stateManager>
+        <datamanager>
+            <registrationHistory>
+                <currentTime></currentTime>
+            </registrationHistory>
+            <landmarkprops/>
+            <landmarks/>
+            <center>1 2 3</center>
+            <operatingTable>1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1</operatingTable>
+            <data type="pointMetric" name="testMetric1" space="patient reference" uid="testMetric1" coord="0 0 0">
+                <filePath></filePath>
+                <acqusitionTime>20170321T154546547</acqusitionTime>
+                <color>240/170/255</color>
+            </data>
+            <data type="pointMetric" name="testMetric2" space="reference" uid="testMetric2" coord="1 0 0">
+                <filePath></filePath>
+                <acqusitionTime>20170321T154546547</acqusitionTime>
+                <color>240/170/255</color>
+            </data>
+            <data toolname="TestTool" type="ToolMetric" name="testMetric3" space="reference" uid="testMetric3" frame="6.12323e-17          -1           0          -2&#xa;          1 6.12323e-17           0           1&#xa;          0           0           1           3&#xa;          0           0           0           1" tooloffset="5">
+                <filePath></filePath>
+                <acqusitionTime>20170321T154546547</acqusitionTime>
+                <color>240/170/255</color>
+            </data>
+            <data type="frameMetric" name="testMetric4" space="reference" uid="testMetric4" frame="6.12323e-17          -1           0          -2&#xa;          1 6.12323e-17           0           1&#xa;          0           0           1           3&#xa;          0           0           0           1">
+                <filePath></filePath>
+                <acqusitionTime>20170321T154546548</acqusitionTime>
+                <color>240/170/255</color>
+            </data>
+            <data type="distanceMetric" p0="testMetric1" p1="testMetric2" name="testMetric5" uid="testMetric5">
+                <filePath></filePath>
+                <acqusitionTime>20170321T154546548</acqusitionTime>
+                <color>240/170/255</color>
+            </data>
+            <data type="planeMetric" p0="testMetric1" p1="testMetric2" name="testMetric6" uid="testMetric6">
+                <filePath></filePath>
+                <acqusitionTime>20170321T154546548</acqusitionTime>
+                <color>240/170/255</color>
+            </data>
+        </datamanager>
+        <toolManager>
+            <toolTipOffset>0</toolTipOffset>
+            <manualTool>
+1 0 0 1
+0 1 0 2
+0 0 1 3
+0 0 0 1</manualTool>
+            <tools>
+                <tool/>
+            </tools>
+        </toolManager>
+        <viewManager>
+            <global2DZoom>1</global2DZoom>
+            <slicePlanes3D opaque="0" use="0"/>
+            <viewGroups>
+                <viewGroup index="0">
+                    <camera3D>
+                        <position>  0.36168 -0.914103 -0.183314</position>
+                        <focalPoint>0 0 0</focalPoint>
+                        <viewUp>-0.147635   -0.2503  0.956846</viewUp>
+                        <nearClip>0.01</nearClip>
+                        <farClip>1000.01</farClip>
+                        <parallelScale>1</parallelScale>
+                    </camera3D>
+                    <slicesPlanes3D>Axial/Coronal/Sagittal</slicesPlanes3D>
+                    <cameraStyle cameraViewAngle="0.5235987755982988" cameraOnTooltip="0" tableLock="0" focusFollowTool="0" uniCam="0" cameraNotBehindROI="" focusROI="" autoZoomROI="" elevation="0" cameraFollowTool="0" cameraTooltipOffset="0"/>
+                </viewGroup>
+                <viewGroup index="1">
+                    <camera3D/>
+                    <slicesPlanes3D>Axial/Coronal/Sagittal</slicesPlanes3D>
+                    <cameraStyle cameraViewAngle="0.5235987755982988" cameraOnTooltip="0" tableLock="0" focusFollowTool="0" uniCam="0" cameraNotBehindROI="" focusROI="" autoZoomROI="" elevation="0" cameraFollowTool="0" cameraTooltipOffset="0"/>
+                </viewGroup>
+                <viewGroup index="2">
+                    <camera3D/>
+                    <slicesPlanes3D>Axial/Coronal/Sagittal</slicesPlanes3D>
+                    <cameraStyle cameraViewAngle="0.5235987755982988" cameraOnTooltip="0" tableLock="0" focusFollowTool="0" uniCam="0" cameraNotBehindROI="" focusROI="" autoZoomROI="" elevation="0" cameraFollowTool="0" cameraTooltipOffset="0"/>
+                </viewGroup>
+                <viewGroup index="3">
+                    <camera3D/>
+                    <slicesPlanes3D>Axial/Coronal/Sagittal</slicesPlanes3D>
+                    <cameraStyle cameraViewAngle="0.5235987755982988" cameraOnTooltip="0" tableLock="0" focusFollowTool="0" uniCam="0" cameraNotBehindROI="" focusROI="" autoZoomROI="" elevation="0" cameraFollowTool="0" cameraTooltipOffset="0"/>
+                </viewGroup>
+                <viewGroup index="4">
+                    <camera3D/>
+                    <slicesPlanes3D>Axial/Coronal/Sagittal</slicesPlanes3D>
+                    <cameraStyle cameraViewAngle="0.5235987755982988" cameraOnTooltip="0" tableLock="0" focusFollowTool="0" uniCam="0" cameraNotBehindROI="" focusROI="" autoZoomROI="" elevation="0" cameraFollowTool="0" cameraTooltipOffset="0"/>
+                </viewGroup>
+            </viewGroups>
+        </viewManager>
+        <registrationManager>
+            <fixedDataUid/>
+            <movingDataUid/>
+        </registrationManager>
+    </managers>
+    <ActiveData>
+        <activeUids></activeUids>
+    </ActiveData>
+    <clippers>
+        <clipper uids="" name="Any" invert="0" plane="Any"/>
+        <clipper uids="" name="Axial" invert="0" plane="Axial"/>
+        <clipper uids="" name="Coronal" invert="0" plane="Coronal"/>
+        <clipper uids="" name="Dual" invert="0" plane="Dual"/>
+        <clipper uids="" name="Radial" invert="0" plane="Radial"/>
+        <clipper uids="" name="Sagittal" invert="0" plane="Sagittal"/>
+        <clipper uids="" name="ToolSide" invert="0" plane="ToolSide"/>
+    </clippers>
+</patient>
